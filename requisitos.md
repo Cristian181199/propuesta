@@ -343,6 +343,321 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Creación de la base de datos.**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear la base de datos para la gestión de la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Añadir usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir usuarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Modificar usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Modificar usuarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Eliminar usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Eliminar usuarios en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Logueo de  usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder acceder al sitio web con un usuario registrado.             |
+| **Prioridad**   | Mínimo           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Búsqueda de peluquería.**         |
+| --------------: | :------------------- |
+| **Descripción** | Buscador de peluquerías.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Búsqueda por nombre.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede buscar peluquería por nombre.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Búsqueda por servicio.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede buscar peluquería filtrando por el servicio que quiere.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Búsqueda por localidad.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede buscar peluquería filtrando por la localidad donde vive.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Búsqueda por calificación.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario puede buscar peluquería filtrando por la calificación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Añadir peluquería.**         |
+| --------------: | :------------------- |
+| **Descripción** | Añadir una peluquería a la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Eliminar peluquería.**         |
+| --------------: | :------------------- |
+| **Descripción** | eliminar una peluquería de la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Calificación de cada peluquería.**         |
+| --------------: | :------------------- |
+| **Descripción** | Cada peluquería tendrá una calificación global.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Prioridad por calificación.**         |
+| --------------: | :------------------- |
+| **Descripción** | Las peluquerías que tengan más calificación, aparecerán como destacadas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Reseñas.**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios podrán dejar una reseña a la peluquería una vez acabada la cita.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Añadir reseña.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se deberá almacenar la información de las reseñas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R55**     | **Eliminar reseña.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se deberá poder eliminar reseñas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R56**     | **Registrarse.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá registrarse en la aplicación almacenando los datos en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Añadir/Modificar información al perfil.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá añadir/modificar información a su perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R58**     | **Añadir peluquería a favoritos.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá añadir una peluquería a favoritos para tener un acceso más directo a ella.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R59**     | **Eliminar peluquería de favoritos.**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá eliminar una peluquería a favoritos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R60**     | **Añadir horarios por parte del usuario empresa.**         |
+| --------------: | :------------------- |
+| **Descripción** | Por parte del usuario empresa, poder añadir horarios a su peluquería.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R61**     | **Modificar horarios por parte del usuario empresa.**         |
+| --------------: | :------------------- |
+| **Descripción** | Por parte del usuario empresa, poder modificar horarios a su peluquería.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R62**     | **Poder cambiar citas  por parte del usuario empresa.**         |
+| --------------: | :------------------- |
+| **Descripción** | Por parte del usuario empresa, poder cambiar citas a sus clientes.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R63**     | **Poder añadir/modificar trabajadores, servicios y costes.**         |
+| --------------: | :------------------- |
+| **Descripción** | Por parte del usuario empresa, poder añadir / eliminar / modificar trabajadores, servicios que ofrecen, costes de los servicios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R64**     | **Eliminar peluquerías / usuarios.**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá eliminar usuarios y peluquerías.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R65**     | **Uso de Amazon S3**         |
+| --------------: | :------------------- |
+| **Descripción** | Se utilizará el servicio de almacenamiento de AWS de Amazon.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R66**     | **Poder recuperar la cuenta de usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Posibilidad para poder recuperar la cuenta de usuario tanto para usuario cliente como para usuario empresa y administrador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R67**     | **Cambiar la contraseña**         |
+| --------------: | :------------------- |
+| **Descripción** | Posibilidad de cambiar la contraseña, bien sea por que se haya olvidado o por gusto del cliente.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R68**     | **Avisar de cita próxima.**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando el usuario cliente inicie sesión, se le avisará de su próxima cita más cercana.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R69**     | **Usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se deberá conocer la siguiente información del usuario: id, nombre, password.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R70**     | **Peluquerías.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se deberá conocer la siguiente información de las peluquerías: id, nombre, localidad.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R71**     | **Añadir información a AWS.**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder añadir información en AWS.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R72**     | **Modificar información de AWS.**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder modificar información en AWS.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R73**     | **Eliminar información de AWS.**         |
+| --------------: | :------------------- |
+| **Descripción** | Poder eliminar información de AWS.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +701,38 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R39**) Creación de la base de datos. | Importante | Información | Fácil | v1 | 
+| (**R40**) Añadir usuario. | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Modificar usuario. | Importante | Funcional | Fácil | v1 | 
+| (**R42**) Eliminar usuario. | Importante | Funcional | Fácil | v1 | 
+| (**R43**) Logueo de  usuario. | Mínimo | Funcional | Fácil | v1 | 
+| (**R44**) Búsqueda de peluquería. | Importante | Funcional | Fácil | v1 | 
+| (**R45**) Búsqueda por nombre. | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Búsqueda por servicio. | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Búsqueda por localidad. | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Búsqueda por calificación. | Importante | Funcional | Fácil | v1 | 
+| (**R49**) Añadir peluquería. | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Eliminar peluquería. | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Calificación de cada peluquería. | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Prioridad por calificación. | Importante | Funcional | Fácil | v1 | 
+| (**R53**) Reseñas. | Importante | Funcional | Fácil | v1 | 
+| (**R54**) Añadir reseña. | Importante | Funcional | Fácil | v2 | 
+| (**R55**) Eliminar reseña. | Importante | Funcional | Fácil | v2 | 
+| (**R56**) Registrarse. | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Añadir/Modificar información al perfil. | Importante | Funcional | Fácil | v2 | 
+| (**R58**) Añadir peluquería a favoritos. | Importante | Funcional | Media | v2 | 
+| (**R59**) Eliminar peluquería de favoritos. | Importante | Funcional | Media | v2 | 
+| (**R60**) Añadir horarios por parte del usuario empresa. | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Modificar horarios por parte del usuario empresa. | Importante | Funcional | Fácil | v1 | 
+| (**R62**) Poder cambiar citas  por parte del usuario empresa. | Importante | Funcional | Fácil | v1 | 
+| (**R63**) Poder añadir/modificar trabajadores, servicios y costes. | Importante | Funcional | Media | v2 | 
+| (**R64**) Eliminar peluquerías / usuarios. | Importante | Funcional | Fácil | v2 | 
+| (**R65**) Uso de Amazon S3 | Importante | Funcional | Media | v2 | 
+| (**R66**) Poder recuperar la cuenta de usuario. | Importante | Funcional | Media | v2 | 
+| (**R67**) Cambiar la contraseña | Opcional | Funcional | Fácil | v3 | 
+| (**R68**) Avisar de cita próxima. | Opcional | Funcional | Fácil | v3 | 
+| (**R69**) Usuario. | Importante | Funcional | Fácil | v1 | 
+| (**R70**) Peluquerías. | Importante | Funcional | Fácil | v1 | 
+| (**R71**) Añadir información a AWS. | Importante | Funcional | Media | v3 | 
+| (**R72**) Modificar información de AWS. | Importante | Funcional | Media | v3 | 
+| (**R73**) Eliminar información de AWS. | Importante | Funcional | Media | v3 | 
