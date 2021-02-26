@@ -577,16 +577,7 @@
 | **Entrega**     | v2             |
 
 
-| **R65**     | **Uso de Amazon S3**         |
-| --------------: | :------------------- |
-| **Descripción** | Se utilizará el servicio de almacenamiento de AWS de Amazon.             |
-| **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
-| **Entrega**     | v2             |
-
-
-| **R66**     | **Poder recuperar la cuenta de usuario.**         |
+| **R65**     | **Poder recuperar la cuenta de usuario.**         |
 | --------------: | :------------------- |
 | **Descripción** | Posibilidad para poder recuperar la cuenta de usuario tanto para usuario cliente como para usuario empresa y administrador.             |
 | **Prioridad**   | Importante           |
@@ -595,7 +586,7 @@
 | **Entrega**     | v2             |
 
 
-| **R67**     | **Cambiar la contraseña**         |
+| **R66**     | **Cambiar la contraseña**         |
 | --------------: | :------------------- |
 | **Descripción** | Posibilidad de cambiar la contraseña, bien sea por que se haya olvidado o por gusto del cliente.             |
 | **Prioridad**   | Opcional           |
@@ -604,7 +595,7 @@
 | **Entrega**     | v3             |
 
 
-| **R68**     | **Avisar de cita próxima.**         |
+| **R67**     | **Avisar de cita próxima.**         |
 | --------------: | :------------------- |
 | **Descripción** | Cuando el usuario cliente inicie sesión, se le avisará de su próxima cita más cercana.             |
 | **Prioridad**   | Opcional           |
@@ -613,7 +604,7 @@
 | **Entrega**     | v3             |
 
 
-| **R69**     | **Usuario.**         |
+| **R68**     | **Usuario.**         |
 | --------------: | :------------------- |
 | **Descripción** | Se deberá conocer la siguiente información del usuario: id, nombre, password.             |
 | **Prioridad**   | Importante           |
@@ -622,7 +613,7 @@
 | **Entrega**     | v1             |
 
 
-| **R70**     | **Peluquerías.**         |
+| **R69**     | **Peluquerías.**         |
 | --------------: | :------------------- |
 | **Descripción** | Se deberá conocer la siguiente información de las peluquerías: id, nombre, localidad.             |
 | **Prioridad**   | Importante           |
@@ -631,31 +622,76 @@
 | **Entrega**     | v1             |
 
 
-| **R71**     | **Añadir información a AWS.**         |
+| **R70**     | **Solicitud de citas.**         |
 | --------------: | :------------------- |
-| **Descripción** | Poder añadir información en AWS.             |
+| **Descripción** | Por parte del usuario cliente, se podrá solicitar citas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R71**     | **Recuperar contraseña.**         |
+| --------------: | :------------------- |
+| **Descripción** | Por parte de los usuarios podrán recuperar o solicitar una nueva contraseña a  de un correo electronico.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R72**     | **Correo de confirmación**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios al registrarse recibirán un correo de confirmación             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R73**     | **Uso de Moments.js.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se utilizara la librería Moments.js para manipular fechas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R74**     | **Uso de API de google.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se hará uso de la localización para saber donde se ubican las peluquerías.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
 
-| **R72**     | **Modificar información de AWS.**         |
+| **R75**     | **Empresa.**         |
 | --------------: | :------------------- |
-| **Descripción** | Poder modificar información en AWS.             |
+| **Descripción** | Se deberá conocer: id, nombre, dirección, servicios, horario, trabajadores             |
 | **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
-| **Entrega**     | v3             |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
 
 
-| **R73**     | **Eliminar información de AWS.**         |
+| **R76**     | **Citas.**         |
 | --------------: | :------------------- |
-| **Descripción** | Poder eliminar información de AWS.             |
+| **Descripción** | Se deberá conocer: id, fecha, servicio, trabajador.             |
 | **Prioridad**   | Importante           |
-| **Tipo**        | Funcional                |
-| **Complejidad** | Media         |
-| **Entrega**     | v3             |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R77**     | **Usuario.**         |
+| --------------: | :------------------- |
+| **Descripción** | Se deberá conocer: id, nombre, password.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
 
 
 
@@ -727,12 +763,16 @@
 | (**R62**) Poder cambiar citas  por parte del usuario empresa. | Importante | Funcional | Fácil | v1 | 
 | (**R63**) Poder añadir/modificar trabajadores, servicios y costes. | Importante | Funcional | Media | v2 | 
 | (**R64**) Eliminar peluquerías / usuarios. | Importante | Funcional | Fácil | v2 | 
-| (**R65**) Uso de Amazon S3 | Importante | Funcional | Media | v2 | 
-| (**R66**) Poder recuperar la cuenta de usuario. | Importante | Funcional | Media | v2 | 
-| (**R67**) Cambiar la contraseña | Opcional | Funcional | Fácil | v3 | 
-| (**R68**) Avisar de cita próxima. | Opcional | Funcional | Fácil | v3 | 
-| (**R69**) Usuario. | Importante | Funcional | Fácil | v1 | 
-| (**R70**) Peluquerías. | Importante | Funcional | Fácil | v1 | 
-| (**R71**) Añadir información a AWS. | Importante | Funcional | Media | v3 | 
-| (**R72**) Modificar información de AWS. | Importante | Funcional | Media | v3 | 
-| (**R73**) Eliminar información de AWS. | Importante | Funcional | Media | v3 | 
+| (**R65**) Poder recuperar la cuenta de usuario. | Importante | Funcional | Media | v2 | 
+| (**R66**) Cambiar la contraseña | Opcional | Funcional | Fácil | v3 | 
+| (**R67**) Avisar de cita próxima. | Opcional | Funcional | Fácil | v3 | 
+| (**R68**) Usuario. | Importante | Funcional | Fácil | v1 | 
+| (**R69**) Peluquerías. | Importante | Funcional | Fácil | v1 | 
+| (**R70**) Solicitud de citas. | Importante | Funcional | Media | v2 | 
+| (**R71**) Recuperar contraseña. | Opcional | Funcional | Media | v3 | 
+| (**R72**) Correo de confirmación | Importante | Funcional | Media | v2 | 
+| (**R73**) Uso de Moments.js. | Importante | Funcional | Media | v2 | 
+| (**R74**) Uso de API de google. | Importante | Funcional | Media | v3 | 
+| (**R75**) Empresa. | Importante | Información | Fácil | v1 | 
+| (**R76**) Citas. | Importante | Información | Fácil | v1 | 
+| (**R77**) Usuario. | Importante | Información | Fácil | v1 | 
